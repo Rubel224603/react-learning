@@ -1,17 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import Boimela from "./Boimela"
 
-function App() {
-
-
-  return (
-      <h1 class="text-3xl font-bold underline font-color-red">
-          Hello world!
-      </h1>
-  )
+function App() { 
+    return (
+        <>
+            <h1>Welcome to Apps</h1>
+            <Boimela />
+           
+        </>
+       
+    )
 }
-
 export default App
