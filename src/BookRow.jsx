@@ -1,12 +1,15 @@
 import BookDetails from "./BookDetails"
 import BookFeature from "./BookFeature"
 
-function BookRow() { 
+
+function BookRow({book}) {
     return (
       <>
-            <BookDetails />
+            <BookDetails title={book.title} author = { book.author} />
             <BookFeature />
         </>
     )
 }
+
+
 export default BookRow
