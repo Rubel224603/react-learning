@@ -1,6 +1,6 @@
-function BookFeature() { 
+function BookFeature({ feature }) { 
     return (
-        <h1>Book Feature Icon</h1>
+        <h1>{feature === true?"yes":"no"}</h1>
     )
 }
 export default BookFeature

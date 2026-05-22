@@ -2,11 +2,13 @@ import BookDetails from "./BookDetails"
 import BookFeature from "./BookFeature"
 
 
-function BookRow({book}) {
+function BookRow({ book }) {
+    //console.log(book)
+    
     return (
       <>
-            <BookDetails title={book.title} author = { book.author} />
-            <BookFeature />
+            <BookDetails title={book.title} author = { book.author} feature={book.feature}  />
+            <BookFeature feature={ book.feature } />
         </>
     )
 }

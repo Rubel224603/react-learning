@@ -1,7 +1,8 @@
 import Header from "./Header"
 import Search from "./Search"
 import Banner from "./Banner"
-import Booklist from "./BookList" 
+import BookList from "./BookList"
+
 
 
 function Boimela() { 
@@ -11,7 +12,7 @@ function Boimela() {
                 <Header />
                 <Search />
                 <Banner />
-                <Booklist/>
+                <BookList />
     </>
 
        
